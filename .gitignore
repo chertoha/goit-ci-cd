@@ -1,1 +1,61 @@
-temp
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg-info/
+*.egg
+*.log
+
+# Virtual Environment
+venv/
+.env/
+.env
+
+# Django migrations
+**/migrations/__pycache__/
+**/migrations/*.pyc
+**/migrations/*.pyo
+**/migrations/*.pyd
+**/migrations/*.log
+**/migrations/*.sqlite3
+**/migrations/*.db
+**/migrations/*.bak
+
+# SQLite
+*.sqlite3
+db.sqlite3
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Mac / Windows / Linux system files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.swp
+
+# Static/media (if generated dynamically)
+staticfiles/
+media/
+
+# Docker (optional)
+*.pid
+*.sock
+
+# Coverage / testing / profiling
+.coverage
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+.cache
+pytest_cache/
+
+.env
